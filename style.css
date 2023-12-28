@@ -1,0 +1,46 @@
+body {
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  font-size: 18px;
+}
+.container {
+}
+
+header,
+main,
+footer {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #777;
+  padding: 10px;
+  color: #eee;
+}
+
+a {
+  color: #333;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
